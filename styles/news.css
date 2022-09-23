@@ -1,0 +1,57 @@
+@font-face {
+    font-family: RobotoRegular;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url(fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: RobotoLight;
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+
+
+#news {
+    width: 353px;
+    height: 620px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+#news h2 {
+    margin-left: 0px;
+    text-align: center;
+}
+
+.newsdate {
+    font-family: 'RobotoLight';
+    color: #898989;
+    width: 79px;
+    margin-bottom: 0px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.newsinfo {
+    margin-top: 0px;
+    margin-bottom: 16px;
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    width: 302px;
+}
+
+.newsborder {
+    background-color: #898989;
+    border: 1px solid #898989;
+    width: 237px;
+}

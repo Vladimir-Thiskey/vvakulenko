@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Создать новость</title>
+        <link rel="stylesheet" href="styles/program.css">
+        <link rel="stylesheet" href="styles/news.css">
+        <link rel="stylesheet" href="styles/footer.css">
+        <link rel="stylesheet" href="styles/header.css">
+    </head>
+    <body class="page light-theme">
+        <div id="login">
+        
+        </div>
+        <header>
+            <a href="./mainpage.html"><img id="headerlogo" src="styles/images/logo.svg" alt="альтернативный текст"></a>
+            <div id="headerlinks">
+                <h2><a href="https://sfedu.ru/">ЮФУ</a></h2>
+                <h2><a href="https://ictis.sfedu.ru/">ИКТИБ</a></h2>
+                <h2><a href="https://grade.sfedu.ru/">БРС</a></h2>
+                <h2><a href="https://lms.sfedu.ru/">LMS</a></h2>
+                <h2><a href="./newspage.html">Студентам</a></h2>
+                <h2><a href="#">Абитуриентам</a></h2>
+                <h2><a href="#">Разное</a></h2>
+            </div>
+            <div id="headermanage">
+                <img src="styles/images/Search.svg" alt="#" >
+                <button class="theme-button" type="button"><img src="styles/images/Language.svg" alt="#"></button>
+                <a href="#"><img src="styles/images/Account.svg" alt="#"></a>
+            </div>
+        </header>
+
+        
+        <!-- Главная часть -->
+        <main>
+            <h3>Создание новости</h3>
+            <div class="telo">
+            <section>
+                <!--Первая часть-->
+                <div class="mainbodytwo">
+                    <h2>Название</h2>
+                        <textarea name="newsname"></textarea>
+                    <h2>Текст новости</h2>
+                        <textarea class="newsdisc" name="newsdisc"></textarea>
+                    <h2>Картинки</h2>
+                        <div id="slider">
+                            <img src="styles/images/xxviistud1.jpg" alt="альтернативный текст">
+                            <img src="styles/images/xxviistud2.jpg" alt="альтернативный текст">
+                            <img src="styles/images/xxviistud3.jpg" alt="альтернативный текст">
+                            <img src="styles/images/addimgnews.svg" alt="альтернативный текст">
+                            <img src="styles/images/addimgnews.svg" alt="альтернативный текст">
+                            <img src="styles/images/addimgnews.svg" alt="альтернативный текст">
+                            <img src="styles/images/addimgnews.svg" alt="альтернативный текст">
+                        </div>
+                 
+                    <div>
+                        <a href="newspage.html">
+                            <div id="createnews"><p>Опубликовать</p></div>
+                        </a>            
+                    </div>
+                </div>
+
+            </section>
+            <section id="news">
+                <h2>Последние новости</h2>
+                <!--First news-->
+                <div>
+                    <p class="newsdate">16.04.2022</p>
+                    <p class="newsinfo">Кафедра принимала участие в Дне открытых дверей ИКТИБ для поступающих на направления бакалавриата и специалитета ИКТИБ ЮФУ в 2022 году.</p>
+                </div>
+                
+                 <hr class="newsborder">  <!--separator-->
+                
+                <!--Second news-->
+                <div>
+                    <p class="newsdate">15.04.2022</p>
+                    <p class="newsinfo">Состоялось заседание кафедры. Повестка: 1.О ходе дипломирования бакалавров и магистрантов.  Докл. рук-ли ВКР, Целых А.Н. 2.О лицензировании специальности 10.05.04 «Информационно-аналитические системы безопасности». Докл. Котов Э.М., Целых А.Н.</p>
+                </div>
+                
+                 <hr class="newsborder">  <!--separator-->
+                
+                <!--Threed news-->
+                <div>
+                    <p class="newsdate">14.04.2022</p>
+                    <p class="newsinfo">Подведены итоги конкурса на получение стипендии имени профессора Л.С. Берштейна, среди студентов ЮФУ, проявивших особые успехи в учебе и научных исследованиях в области искусственного интеллекта, финансируемой из средств Фонда целевого капитала.</p>
+                </div>
+            </section>
+            </div>
+        </main>
+        
+        <!--Подвал-->
+        <footer>
+            <img src="styles/images/Console.svg" alt="альтернативный текст">
+            <p>© 2002-2022 ИАСБ.ИКТИБ. ЮФУ.</p>
+            <p class="footerowner">Создание и поддержание веб-ресурса:<br>руководитель: Вак В.В.<br>информационный менеджер: Вак В.В. </p>
+        </footer>
+        <script src="javascripts/toggletheme.js" ></script>
+    </body>
+</html>

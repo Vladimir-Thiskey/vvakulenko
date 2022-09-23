@@ -1,0 +1,79 @@
+@font-face {
+    font-family: RobotoRegular;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url(fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: RobotoLight;
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+#login {
+    background-color: 0000008f;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    backdrop-filter: blur(8px);
+    display: none;
+}
+
+.dark-theme header{ 
+    background-color: #002c3e;
+}
+
+header {
+    background-color: #161B1D;
+    
+    /*display: flex;*/
+    
+    width: 100%;
+    height: 96px;
+}
+
+header h2{
+    margin-left: 14px;
+    font-family: RobotoLight;
+}
+
+header a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+header img {
+    width: 40px;
+    margin-right: 1px;
+    border-radius: 0px;
+}
+
+#headerlogo {
+    width: 156px;
+    margin-left: 157px;
+    margin-top: 14px;
+}
+
+#headerlinks {
+    display: flex;
+    justify-content: center;
+    margin-top: -52px;
+}
+
+#headermanage {
+    display: flex;
+    float: right;
+    margin-top: -52px;
+    margin-right: 150px;
+}
+
+#headermanage img {
+    margin-left: 16px;
+}
